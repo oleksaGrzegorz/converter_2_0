@@ -1,0 +1,22 @@
+.form__button {
+    background: rgb(137, 137, 232);
+    color: white;
+}
+
+.form__button:hover {
+    background: hsl(240, 67%, 62%);
+}
+
+.form {
+    background: hsl(240, 67%, 90%);
+}
+
+.form__legend {
+    padding: 5px;
+    background: rgb(137, 137, 232);
+    color: white;
+}
+
+.form__fieldset {
+    border: none;
+}

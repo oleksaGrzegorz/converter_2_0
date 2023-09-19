@@ -1,6 +1,7 @@
 .form__button {
     background: rgb(137, 137, 232);
     color: white;
+    margin-left: 5px;
 }
 
 .form__button:hover {

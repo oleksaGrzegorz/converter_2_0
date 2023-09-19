@@ -28,3 +28,7 @@
 .form__label {
     padding: 5px;
 }
+
+.form__result {
+    margin-left: 5px;
+}

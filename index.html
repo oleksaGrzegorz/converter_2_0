@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="form.css">
     <title>Document</title>
     <script defer src="index.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" 
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
     <div class="container">
         <form class="form">
             <fieldset class="form__fieldset">
                 <legend class="form__legend">Kalkulator z euro na pln</legend>
                 <p><label class="form__label">Podaj kwote w euro: <input class="js-zloty" type="number"></label></p>
-                <p><label class="form__label">Kurs euro wynosi: <input class="js-euro" type="number" value=4.60></label></p>
+                <p><label class="form__label">Kurs euro wynosi: <input class="js-euro" type="number" value=4.60></label>
+                </p>
                 <button class="form__button js-button">Przelicz</button>
+                <button type="reset" class="form__button">Wyczyść</button>
                 <p class="form__result">Przeliczona kwota wynosi: <strong class="js-result"></strong></p>
             </fieldset>
         </form>

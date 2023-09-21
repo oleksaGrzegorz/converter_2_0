@@ -18,8 +18,20 @@
         <form class="form">
             <fieldset class="form__fieldset">
                 <legend class="form__legend">Kalkulator z euro na pln</legend>
-                <p><label class="form__label">Podaj kwote w euro: <input class="js-zloty" type="number"></label></p>
-                <p><label class="form__label">Kurs euro wynosi: <input class="js-euro" type="number" value=4.60></label>
+                <p>
+                    <label class="form__label">Podaj kwote w euro: 
+                        <input class="js-zloty" type="number">
+                    </label>
+                </p>
+                <p>
+                    <select name="currency">
+                        <option value="euro">Euro</option>
+                        <option value="dollar">Dollar</option>
+                    </select>
+                <p>
+                    <label class="form__label">Kurs euro wynosi: 
+                        <input class="js-euro" type="number" value=4.60>
+                    </label>
                 </p>
                 <button class="form__button js-button">Przelicz</button>
                 <button type="reset" class="form__button">Wyczyść</button>
